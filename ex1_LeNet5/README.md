@@ -36,22 +36,23 @@ The code is written such that we train all the cases and show the required graph
 |Batch Normalization|train\_lenet5(batch\_size=64, initial\_lr=0.01, num\_epochs=30, batch\_norm\_enabled=True, dropout\_enabled=False, weight\_decay\_enabled=False,weight\_decay=0.0001)|
 |Dropout|train\_lenet5(batch\_size=64, initial\_lr=0.01, num\_epochs=30, batch\_norm\_enabled=False, dropout\_enabled=True, weight\_decay\_enabled=False,weight\_decay=0.0001)|
 |Weight Decay|train\_lenet5(batch\_size=64, initial\_lr=0.01, num\_epochs=30, batch\_norm\_enabled=False, dropout\_enabled=False, weight\_decay\_enabled=True,weight\_decay=0.0001)|
-Function Description
+
+Function Description:
 
 Trains a LeNet-5 model on a given dataset and returns the final training and testing accuracies.
 Args:
-`    `- batch\_size (int): the number of samples per batch to load in the data loaders.
-`    `- initial\_lr (float): the initial learning rate to use for the optimizer.
-`    `- num\_epochs (int): the number of epochs to train the model for.
-`    `- batch\_norm\_enabled (bool): whether to enable batch normalization in the model.
-`    `- dropout\_enabled (bool): whether to enable dropout in the model.
-`    `- weight\_decay\_enabled (bool): whether to enable weight decay in the model.
-`    `- weight\_decay (float): the weight decay value to use for the optimizer.
-`    `- weights\_path (str): (optional) the file path to save the trained model weights to. If no value is provided then wights\_path will be assigned with ‘lenet\_5\_bn{}\_dp{}\_wd{}\_weights.pth’ when {} will be true or false according to the function values.
+- batch\_size (int): the number of samples per batch to load in the data loaders.
+- initial\_lr (float): the initial learning rate to use for the optimizer.
+- num\_epochs (int): the number of epochs to train the model for.
+- batch\_norm\_enabled (bool): whether to enable batch normalization in the model.
+- dropout\_enabled (bool): whether to enable dropout in the model.
+- weight\_decay\_enabled (bool): whether to enable weight decay in the model.
+- weight\_decay (float): the weight decay value to use for the optimizer.
+- weights\_path (str): (optional) the file path to save the trained model weights to. If no value is provided then wights\_path will be assigned with ‘lenet\_5\_bn{}\_dp{}\_wd{}\_weights.pth’ when {} will be true or false according to the function values.
 
 Returns:
-`    `- train\_acc (float): the final training accuracy of the model on the train set.
-`    `- test\_acc (float): the final testing accuracy of the model on the test set.
+- train\_acc (float): the final training accuracy of the model on the train set.
+- test\_acc (float): the final testing accuracy of the model on the test set.
 
 1. <a name="_heading=h.gjdgxs"></a>**How to test with saved weights** 
    Run the *test\_lenet5* function as shown in the following table.
@@ -63,20 +64,20 @@ Returns:
 |Dropout|test\_lenet5(batch\_size=64, batch\_norm\_enabled=False, dropout\_enabled=False, weight\_decay\_enabled=False,weight\_decay=0.0001,weights\_path ='lenet5\_bnFalse\_dpFalse\_wdTrue\_weights.pth')|
 |Weight Decay|test\_lenet5(batch\_size=64, batch\_norm\_enabled=False, dropout\_enabled=False, weight\_decay\_enabled=False,weight\_decay=0.0001,weights\_path ='lenet5\_bnFalse\_dpFalse\_wdTrue\_weights.pth')|
 
-Function Description
+Function Description:
 
 Test a LeNet-5 model on a given dataset and return the final training and testing accuracies on a pre-trained model.
 Args:
-`    `- batch\_size (int): the number of samples per batch to load in the data loaders.
-`    `- batch\_norm\_enabled (bool): whether to enable batch normalization in the model.
-`    `- dropout\_enabled (bool): whether to enable dropout in the model.
-`    `- weight\_decay\_enabled (bool): whether to enable weight decay in the model.
-`    `- weight\_decay (float): the weight decay value to use for the optimizer.
-`    `- weights\_path (str):  the file path to load the trained model weights to.
+- batch\_size (int): the number of samples per batch to load in the data loaders.
+- batch\_norm\_enabled (bool): whether to enable batch normalization in the model.
+- dropout\_enabled (bool): whether to enable dropout in the model.
+- weight\_decay\_enabled (bool): whether to enable weight decay in the model.
+- weight\_decay (float): the weight decay value to use for the optimizer.
+- weights\_path (str):  the file path to load the trained model weights to.
 
 Returns:
-`    `- train\_acc (float): the final testing accuracy of the model on the train set.
-`    `- test\_acc (float): the final testing accuracy of the model on the test set.
+- train\_acc (float): the final testing accuracy of the model on the train set.
+- test\_acc (float): the final testing accuracy of the model on the test set.
 
 1. By running Cell 20 you can see a **table of the summary
 	
