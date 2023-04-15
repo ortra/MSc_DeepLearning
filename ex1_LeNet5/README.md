@@ -1,6 +1,6 @@
 ﻿
 
-|<p>ID1: 208560086</p><p>ID2: 301613501</p>|<p>**Deep Learning** </p><p>**2022-2023**</p>|![](Images/Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.001.png)|
+|<p>ID1: ********</p><p>ID2: ********</p>|<p>**Deep Learning** </p><p>**2022-2023**</p>|![](Images/Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.001.png)|
 | :- | :-: | -: |
 
 
