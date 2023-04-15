@@ -1,6 +1,6 @@
 ﻿
 
-|<p>ID1: 208560086</p><p>ID2: 301613501</p>|<p>**Deep Learning** </p><p>**2022-2023**</p>|![](Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.001.png)|
+|<p>ID1: 208560086</p><p>ID2: 301613501</p>|<p>**Deep Learning** </p><p>**2022-2023**</p>|![](Images/Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.001.png)|
 | :- | :-: | -: |
 
 
@@ -80,8 +80,8 @@ Returns:
 
 1. By running Cell 20 you can see a **table of the summary
 	
-   `		`![](Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.002.png)**
+   `		`![](Images/Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.002.png)**
 1. <a name="_heading=h.30j0zll"></a>By running Cell 21 (%tensorboard --logdir logs) you can see the Tensorboard visualization of all the graphs. Then follow the illustration below in order to choose the relevant graph\s you want to see. It is possible to compare all the train-test combinations.
 1. <a name="_heading=h.s33bpoe7jdbk"></a>For example - if we want to compare the test and the train of batch normalization we will choose test/lenet\_5\_**bnTrue**… and train/lenet5\_**bnTrue**.
 
-   `	`![](Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.003.png)
+   `	`![](Images/Aspose.Words.e53994a0-9a1f-4f49-98f5-4e48e764a315.003.png)
