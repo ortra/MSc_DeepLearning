@@ -57,7 +57,7 @@ Overall, the parameter count for the LSTM cell is calculated as 8
 multiplied by 40,000, plus 4 multiplied by 200, resulting in a total of
 320,800 parameters.
 
-![](vertopal_d4a7492faf1b49e8aeb46f8413b2ceba/media/image10.png){width="3.25in"
+![](Images//image10.png){width="3.25in"
 height="2.082030839895013in"}
 
 PyTorch\'s LSTM implementation employs two bias terms (b_ih and b_hh)
@@ -67,20 +67,20 @@ in the provided assignment implementation.
 Therefore, in the notebook, you will probably see different numbers of
 weights:
 
-![](vertopal_d4a7492faf1b49e8aeb46f8413b2ceba/media/image14.png){width="3.25in"
+![](Images/image14.png){width="3.25in"
 height="1.736719160104987in"}
 
 # Since we are ignoring the bias terms, let's write the new equations based on the given GRU cell.
 
 +---------------------+---+--------+---------+------+--------+--------+
 | # $z_{(t)} = \sigm  |   |        | # ![](  |      |        |        |
-| a\left( {W_{xz}}^{T |   |        | vertopa |      |        |        |
-| } \cdot x_{(t)} + { |   |        | l_d4a74 |      |        |        |
-| W_{hz}}^{T} \cdot h |   |        | 92faf1b |      |        |        |
-| _{(t - 1)} \right)$ |   |        | 49e8aeb |      |        |        |
-|                     |   |        | 46f8413 |      |        |        |
-| # $r_{(t)} = \sigm  |   |        | b2ceba/ |      |        |        |
-| a\left( {W_{xr}}^{T |   |        | media/i |      |        |        |
+| a\left( {W_{xz}}^{T |   |        |         |      |        |        |
+| } \cdot x_{(t)} + { |   |        |         |      |        |        |
+| W_{hz}}^{T} \cdot h |   |        |         |      |        |        |
+| _{(t - 1)} \right)$ |   |        |         |      |        |        |
+|                     |   |        |         |      |        |        |
+| # $r_{(t)} = \sigm  |   |        |       I |      |        |        |
+| a\left( {W_{xr}}^{T |   |        | mages/i |      |        |        |
 | } \cdot x_{(t)} + { |   |        | mage3.p |      |        |        |
 | W_{hr}}^{T} \cdot h |   |        | ng){wid |      |        |        |
 | _{(t - 1)} \right)$ |   |        | th="2.3 |      |        |        |
