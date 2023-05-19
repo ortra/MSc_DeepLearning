@@ -9,9 +9,11 @@
 **Padding**: Add special tokens to shorter input sequences to make them
 the same length as the longest sequence.
 
-### **Bucketing**: Group input sequences by their length and pad them within each group, reducing the amount of padding needed overall.
+### **Bucketing**: 
+Group input sequences by their length and pad them within each group, reducing the amount of padding needed overall.
 
-### **Dynamic RNNs**: Use dynamic RNNs that can process sequences of different lengths within the same batch by processing only valid timesteps.
+### **Dynamic RNNs**: 
+Use dynamic RNNs that can process sequences of different lengths within the same batch by processing only valid timesteps.
 
 ## Handling variable-length output sequences:
 
